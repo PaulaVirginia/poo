@@ -1,0 +1,16 @@
+using System;
+
+class MainClass 
+  {
+  public static void Main (string[] args) 
+{
+ double a,b, media;
+ Console.WriteLine ("digite a primeira nota");
+ a =  Double.Parse (Console.ReadLine ());
+Console.WriteLine ("digite a segunda nota");
+  b =  Double.Parse (Console.ReadLine ());
+media = (a*2)+(b*3)/5;
+ Console.WriteLine ($"A media é= {media:  0.00}");
+  
+  }
+}
