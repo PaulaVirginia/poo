@@ -1,0 +1,13 @@
+using System;
+
+class MainClass 
+  {
+  public static void Main (string[] args) 
+{
+ 
+ Console.WriteLine ("digite seu nome");
+ string a =  (Console.ReadLine ());
+ Console.WriteLine ($"bem vindo(a) ao c#,{a}");
+  
+  }
+}
